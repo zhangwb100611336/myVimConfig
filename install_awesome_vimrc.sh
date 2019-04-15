@@ -15,4 +15,5 @@ source ~/myVimConfig/my_configs.vim
 catch
 endtry' > ~/.vimrc
 
+cp -r  ~/myVimConfig/my_plugins/* ~/.vim/
 echo "Installed the Ultimate Vim configuration successfully! Enjoy :-)"
